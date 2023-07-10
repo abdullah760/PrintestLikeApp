@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0491CB142A5C978000174CE3 /* TheMainProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491CB132A5C978000174CE3 /* TheMainProjectApp.swift */; };
-		0491CB162A5C978000174CE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491CB152A5C978000174CE3 /* ContentView.swift */; };
+		0491CB162A5C978000174CE3 /* InvestmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491CB152A5C978000174CE3 /* InvestmentsView.swift */; };
 		0491CB182A5C978300174CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0491CB172A5C978300174CE3 /* Assets.xcassets */; };
 		0491CB1B2A5C978300174CE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0491CB1A2A5C978300174CE3 /* Preview Assets.xcassets */; };
+		04AB9B842A5CC270009C5A3A /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB9B832A5CC270009C5A3A /* NewsView.swift */; };
+		04EDD3832A5C997700DB2980 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDD3822A5C997700DB2980 /* MainView.swift */; };
+		04EDD3852A5C99E900DB2980 /* MyInvestementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDD3842A5C99E900DB2980 /* MyInvestementView.swift */; };
+		04EDD3872A5C99F700DB2980 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDD3862A5C99F700DB2980 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0491CB102A5C978000174CE3 /* TheMainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0491CB132A5C978000174CE3 /* TheMainProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMainProjectApp.swift; sourceTree = "<group>"; };
-		0491CB152A5C978000174CE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0491CB152A5C978000174CE3 /* InvestmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentsView.swift; sourceTree = "<group>"; };
 		0491CB172A5C978300174CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0491CB1A2A5C978300174CE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04AB9B832A5CC270009C5A3A /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		04EDD3822A5C997700DB2980 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		04EDD3842A5C99E900DB2980 /* MyInvestementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInvestementView.swift; sourceTree = "<group>"; };
+		04EDD3862A5C99F700DB2980 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				0491CB132A5C978000174CE3 /* TheMainProjectApp.swift */,
-				0491CB152A5C978000174CE3 /* ContentView.swift */,
+				04EDD3822A5C997700DB2980 /* MainView.swift */,
+				0491CB152A5C978000174CE3 /* InvestmentsView.swift */,
+				04EDD3842A5C99E900DB2980 /* MyInvestementView.swift */,
+				04EDD3862A5C99F700DB2980 /* ProfileView.swift */,
+				04AB9B832A5CC270009C5A3A /* NewsView.swift */,
 				0491CB172A5C978300174CE3 /* Assets.xcassets */,
 				0491CB192A5C978300174CE3 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0491CB162A5C978000174CE3 /* ContentView.swift in Sources */,
+				0491CB162A5C978000174CE3 /* InvestmentsView.swift in Sources */,
+				04EDD3832A5C997700DB2980 /* MainView.swift in Sources */,
+				04EDD3872A5C99F700DB2980 /* ProfileView.swift in Sources */,
+				04AB9B842A5CC270009C5A3A /* NewsView.swift in Sources */,
+				04EDD3852A5C99E900DB2980 /* MyInvestementView.swift in Sources */,
 				0491CB142A5C978000174CE3 /* TheMainProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
